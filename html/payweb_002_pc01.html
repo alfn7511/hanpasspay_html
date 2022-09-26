@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hanpass</title>
+    <link href="../css/styles.css" rel="stylesheet" />
+    <!-- JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../js/app.js"></script>
+  </head>
+  <body>
+    <div class="modal-mask"></div>
+    <div class="modal payweb-pc">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">한패스 페이 결제정보</div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">닫기</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>결제 안내</h1>
+            <p>결제금액 및 정보를 확인하고 한패스 앱을 통해 결제를 진행해 주세요. 결제 유효시간 내에 QR코드 스캔 혹은 결제코드 입력을 완료하셔야 합니다.</p>
+            <table class="pay-info">
+              <tbody>
+                <tr>
+                  <th scope="col">제휴사명</th>
+                  <td>Misspark shop</td>
+                </tr>
+                <tr>
+                  <th scope="col">상품명</th>
+                  <td>상품명상품명품명…</td>
+                </tr>
+                <tr>
+                  <th scope="col">수량</th>
+                  <td>Misspark shop</td>
+                </tr>
+                <tr>
+                  <th scope="col">결제금액</th>
+                  <td>상품명상품명품명…</td>
+                </tr>
+                <tr>
+                  <th scope="col">결제 유효시간</th>
+                  <td>2022-09-09 23:29:59</td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- agree-box -->
+            <div class="agree-box">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="agreeChk" />
+                <label class="form-check-label" for="agreeChk">결제에 대한 약관을 읽고 동의합니다.</label>
+              </div>
+              <a href="#" class="btn-agreeView">약관보기</a>
+            </div>
+            <!-- agree-box // -->
+            <!-- paycode-request-box -->
+            <div class="paycode-box request">
+              <img src="../images/btnQrScanReq@2x.png" alt="QR코드" width="37px" />
+              <p>결제코드 호출하기</p>
+            </div>
+            <!-- paycode-request-box // -->
+            <!-- paycode-response-box -->
+            <div class="paycode-box response">
+              <img src="../images/btnQrScanRes@2x.png" alt="QR코드" width="80px" />
+              <p>결제코드 : 123456-789-01</p>
+            </div>
+            <!-- paycode-response-box // -->
+            <button type="button" class="btn btn-lg btn-complete">완료</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

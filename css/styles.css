@@ -449,6 +449,7 @@ ol, ul, dl {
 
 .payweb-mobile .accordion-box ul > li.open .accordion-cont {
   display: block;
+  background-color: #F5F5F5;
 }
 
 .payweb-mobile .step-h1 {
@@ -457,8 +458,8 @@ ol, ul, dl {
   padding: 8px 24px;
   font-size: 16px;
   font-weight: 500;
-  color: #585858;
-  background: #e3e3e3;
+  /*color: #585858;*/
+  background: #C4DCFF;
 }
 
 .payweb-mobile .step-cont {
@@ -588,6 +589,9 @@ ol, ul, dl {
   padding: 20px 40px;
 }
 
+.modal-body .subcon{
+	margin-top: 20px;
+}
 .modal-footer {
   display: flex;
   align-items: center;

@@ -615,6 +615,15 @@ ol, ul, dl {
   min-height: calc(100% - (15px * 2));
 }
 
+.payweb-pc .modal-content{
+  height: 769px;
+}
+
+.payweb-pc .modal-content .modal-body{
+  height: calc(100% - 60px);
+  overflow-y: auto;
+}
+
 .payweb-pc .pay-info {
   margin-top: 30px;
   width: 100%;
